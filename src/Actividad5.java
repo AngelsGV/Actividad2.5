@@ -20,7 +20,7 @@ public class Actividad5 {
             System.out.println("El total recaudado es: " + totalRecReb + "€");
         } else if (aforoMax < eVendidas) { //No se puede superar el aforo del local
             System.out.println("Error: No se puede superar el aforo del local.");
-        } else { //Si no cumple, el total no tendrá descuento.
+        } else { //Si no cumplen las condiciones anteriores, el total no tendrá descuento.
             double totalRec = pEntrada * eVendidas;
             System.out.println("El total recaudado es: " + totalRec + "€");
         }
