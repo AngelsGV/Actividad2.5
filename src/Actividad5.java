@@ -16,7 +16,7 @@ public class Actividad5 {
             //Si las entradas no superan el 50% del aforo, se hace un descuento del 25%
             double entradaRebajada = pEntrada - (0.25 * pEntrada); // Rebaja del 25% en la entrada.
             double totalRecReb = entradaRebajada * eVendidas;
-            System.out.println("El precio de la entrada rebajada un 20 % es: " + entradaRebajada + "€");
+            System.out.println("El precio de la entrada rebajada un 25% es: " + entradaRebajada + "€");
             System.out.println("El total recaudado es: " + totalRecReb + "€");
         } else if (aforoMax < eVendidas) { //No se puede superar el aforo del local
             System.out.println("Error: No se puede superar el aforo del local.");
