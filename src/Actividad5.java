@@ -4,7 +4,7 @@ public class Actividad5 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Aforo máximo del local: ");
         int aforoMax = sc.nextInt(); // Declaro variable entera.
-        System.out.println("Precio de la entrada: ");
+        System.out.println("Precio de la entrada (Si lleva decimales usad coma): ");
         double pEntrada = sc.nextDouble();
         //  Declaro variable introducida como real. Precio de la entrada puede tener deimales.
         System.out.println("Entradas vendidas: ");
